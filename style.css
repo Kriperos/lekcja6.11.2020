@@ -65,13 +65,10 @@ body{
 }
 .galeria{
     display: grid;
-    grid-gap: 2x;
-
+   justify-content: center;
 }
 .grid-img{
-    margin-left: 180px;
-    padding: 5px;
-    width:320px;
+    width:220px;
     height: 150px;
 }
 .item21 {
@@ -92,8 +89,12 @@ body{
       grid-row: 3;
       grid-column: 2;
 }
+.item5{
+    grid-column: 3;
+    grid-row: 2;
+}
 .img1{
-    width:320px ;
+    width:230px ;
     height: 150px;
     border-radius: 6px;
 }
